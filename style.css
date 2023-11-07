@@ -1,57 +1,94 @@
 * {
   margin: 0;
-  background-color: rgba(0, 221, 255, 0.711);
 }
 
-img {
-  width: 300px;
-  border: gold 22px solid;
-  margin: 15px;
-  border-radius: 150px;
+html {
+  scroll-behavior: smooth;
 }
-
-div {
+#sec1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
-  width: 100vh;
-  flex-direction: column;
-  margin-top: 15px;
+  width: 100%;
+  height: 100px;
+  background-color: #f1f914;
 }
 
-.c1 {
-  border: rgb(0, 255, 0) 22px solid;
+#sec2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  overflow: hidden;
+  width: 100%;
+  height: 500px;
+  background-color: #0fabf3;
 }
 
-#img_1 {
-  width: 250px;
+#sec3 {
+  width: 100%;
+  height: 500px;
+  background-color: #91ff6c;
 }
-#img_2 {
-  width: 200px;
+
+#sec4 {
+  width: 100%;
+  height: 500px;
+  background-color: #cb55f6;
 }
-#img_3 {
-  width: 150px;
+
+#sec5 {
+  width: 100%;
+  height: 500px;
+  background-color: #f45d9a;
 }
-#img_4 {
-  width: 100px;
+
+#sec6 {
+  width: 100%;
+  height: 500px;
+  background-color: #83f556;
 }
-#img_5 {
-  width: 50px;
+
+#end {
+  width: 100%;
+  height: 100px;
+  background-color: #f1f914;
+}
+
+.btnMenu {
+  height: 40px;
+  width: auto;
+  background-color: #74ee4c;
+  border-radius: 100%;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 25px;
+  color: brown;
 }
 
 button:hover {
-    cursor: pointer;
-    background-color: #0059ff;
-    border: 5px black solid;
-  }
-  .btnMenu {
-    height: 60px;
-    width: auto;
-    background-color: #0800ff52;
-    border-radius: 100%;
-    margin-left: 10px;
-    margin-right: 10px;
-    font-size: 25px;
-    color: brown;
-  }
+  cursor: pointer;
+  background-color: #b5e9a4;
+  border: 5px black solid;
+}
+
+.btnColor{
+  height: 40px;
+  width: auto;
+  background-color: #e81ec6;
+
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 25px;
+  color: rgb(255, 206, 206);
+}
+.arrow {
+  position: fixed;
+  height: 30px;
+  width: 30px;
+  right: 15px;
+  bottom: 15px;
+}
+
+.sec2-img{
+  height: 100px;
+}
