@@ -1,1 +1,0 @@
-const btnColor1 = document.getElementsByClassName("btnColor")
